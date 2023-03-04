@@ -1,10 +1,11 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include "./HittingSetFinder.cpp"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hallo!" << endl;
+    cout << findSmallestHittingSet(nullptr) << endl;
 }
